@@ -75,6 +75,7 @@ homebrew_cask_apps:
   - helo
   - insomnia
   - iterm2
+  - jetbrains-toolbox
   - phpmon
   - ray
   - raycast
