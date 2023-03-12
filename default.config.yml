@@ -45,6 +45,7 @@ homebrew_installed_packages:
   - svgo
   - gifsicle
   # Development
+  - composer
   - php
   - php@8.1
   - composer
