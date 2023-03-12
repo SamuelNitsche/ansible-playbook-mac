@@ -128,4 +128,4 @@ users:
 post_provision_tasks:
   - name: Link oh-my-zsh custom
     ansible.builtin.command:
-      cmd: ln -s $HOME/Code/dotfiles/omz-custom $HOME/.oh-my-zsh/custom
+      cmd: rm -Rf $HOME/.oh-my-zsh/custom && ln -s $HOME/Code/dotfiles/omz-custom $HOME/.oh-my-zsh/custom
