@@ -126,6 +126,4 @@ users:
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks:
-  - name: Link oh-my-zsh custom
-    ansible.builtin.command:
-      cmd: rm -Rf $HOME/.oh-my-zsh/custom && ln -s $HOME/Code/dotfiles/omz-custom $HOME/.oh-my-zsh/custom
+  - scripts/link-custom-zsh-directory.yml

@@ -1,0 +1,7 @@
+- name: Remove .oh-my-zsh custom directory
+  ansible.builtin.command:
+    cmd: rm -Rf $HOME/.oh-my-zsh/custom
+
+- name: Link custom directory from dotfiles repo
+  ansible.builtin.command:
+    cmd: ln -s $HOME/Code/dotfiles/omz-custom $HOME/.oh-my-zsh/custom
