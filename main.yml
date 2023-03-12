@@ -14,7 +14,6 @@
 
   roles:
     - role: elliotweiser.osx-command-line-tools
-    - role: markosamuli.nvm
     - role: geerlingguy.mac.homebrew
       tags: ["homebrew"]
     - role: geerlingguy.dotfiles
@@ -29,6 +28,7 @@
     - role: gantsign.oh-my-zsh
       when: configure_oh_my_zsh
       tags: ["shell"]
+    - role: markosamuli.nvm
 
   tasks:
     - import_tasks: tasks/osx.yml
