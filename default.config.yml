@@ -76,6 +76,7 @@ homebrew_cask_apps:
   - insomnia
   - iterm2
   - jetbrains-toolbox
+  - microsoft-edge
   - phpmon
   - ray
   - raycast
